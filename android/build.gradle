@@ -26,11 +26,11 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
-  compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
+  compileSdkVersion 31
   buildToolsVersion getExtOrDefault('buildToolsVersion')
   defaultConfig {
     minSdkVersion 23
-    targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
+    targetSdkVersion 31
     versionCode 1
     versionName "1.0"
 
